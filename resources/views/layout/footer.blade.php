@@ -4,32 +4,27 @@
             <div class="app-footer-left">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a href="{{ route('index') }}" class="nav-link">
-                            Footer Link 1
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="{{ route('index2') }}" class="nav-link">
-                            Footer Link 2
+                        <a href="https://github.com/SentryoZ/LazyGenerateTool" data-no-swup class="nav-link">
+                            Github
                         </a>
                     </li>
                 </ul>
             </div>
             <div class="app-footer-right">
                 <ul class="nav">
-                    <li class="nav-item">
-                        <a href="javascript:void(0);" class="nav-link">
-                            Footer Link 3
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="javascript:void(0);" class="nav-link">
-                            <div class="badge badge-success mr-1 ml-0">
-                                <small>NEW</small>
-                            </div>
-                            Footer Link 4
-                        </a>
-                    </li>
+{{--                    <li class="nav-item">--}}
+{{--                        <a href="javascript:void(0);" class="nav-link">--}}
+{{--                            Footer Link 3--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
+{{--                    <li class="nav-item">--}}
+{{--                        <a href="javascript:void(0);" class="nav-link">--}}
+{{--                            <div class="badge badge-success mr-1 ml-0">--}}
+{{--                                <small>NEW</small>--}}
+{{--                            </div>--}}
+{{--                            Footer Link 4--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
                 </ul>
             </div>
         </div>

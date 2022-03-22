@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\CommandPanelController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ItemAdderController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,4 +17,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [DashboardController::class, 'index'])->name('index');
-Route::get('/test-2', [DashboardController::class, 'index'])->name('index2');
+
+Route::group([
+    'prefix' => 'item-adder'
+], function (){
+    Route::get('/', [ItemAdderController::class, 'index'])->name('item-adder.index');
+});
+
+Route::group([
+    'prefix' => 'command-panel'
+], function (){
+    Route::get('/', [CommandPanelController::class, 'index'])->name('command-panel.index');
+});
