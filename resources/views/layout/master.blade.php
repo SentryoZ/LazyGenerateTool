@@ -39,9 +39,9 @@
         </div>
     </div>
 </div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 <script type="text/javascript" src="{{ asset('assets/scripts/main.js')  }}"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="{{ asset('assets/scripts/custom.js') }}"></script>
 </body>
 </html>

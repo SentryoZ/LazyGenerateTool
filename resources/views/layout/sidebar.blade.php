@@ -37,23 +37,23 @@
             <ul class="vertical-nav-menu">
                 <li class="app-sidebar__heading">General</li>
                 <li>
-                    <a href="{{ route('index') }}" class="mm-active">
+                    <a href="{{ route('index') }}">
                         <i class="metismenu-icon pe-7s-rocket"></i>
                         Homepage
                     </a>
                 </li>
                 <li class="app-sidebar__heading">Command Panel</li>
                 <li>
-                    <a href="#">
+                    <a href="{{ route('command-panel.index') }}">
                         <i class="metismenu-icon pe-7s-diamond"></i>
-                        Still blank
+                        Index
                     </a>
                 </li>
                 <li class="app-sidebar__heading">Item Adder</li>
                 <li>
-                    <a href="#">
+                    <a href="{{ route('item-adder.index') }}">
                         <i class="metismenu-icon pe-7s-diamond"></i>
-                        Still blank
+                        Index
                     </a>
                 </li>
             </ul>

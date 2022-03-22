@@ -24,5 +24,10 @@ $(function () {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             }
         });
+
+        $('.vertical-nav-menu a').on('click', function (){
+            $('.vertical-nav-menu a').removeClass('mm-active');
+            $(this).addClass('mm-active');
+        })
     }
 });
