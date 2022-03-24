@@ -28,4 +28,6 @@ Route::group([
     'prefix' => 'command-panel'
 ], function (){
     Route::get('/', [CommandPanelController::class, 'index'])->name('command-panel.index');
+    Route::get('/workbench-recipe', [CommandPanelController::class, 'workbench'])->name('command-panel.workbench');
+    Route::post('/workbench-recipe', [CommandPanelController::class, 'handleWorkbench']);
 });

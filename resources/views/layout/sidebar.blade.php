@@ -48,6 +48,10 @@
                         <i class="metismenu-icon pe-7s-diamond"></i>
                         Index
                     </a>
+                    <a href="{{ route('command-panel.workbench') }}">
+                        <i class="metismenu-icon pe-7s-diamond"></i>
+                        Workbench Recipe
+                    </a>
                 </li>
                 <li class="app-sidebar__heading">Item Adder</li>
                 <li>
